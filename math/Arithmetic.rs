@@ -1,0 +1,8 @@
+fn main(){
+    println!("{}", Soma(2,4))
+}
+
+fn Soma(a:i32, b: i32) -> i32{
+    return a + b;
+}
+
