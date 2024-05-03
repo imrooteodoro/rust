@@ -1,7 +1,7 @@
 fn main(){
-    WhileFunc();
+    while_func();
 }
-fn WhileFunc(){
+fn while_func(){
     let mut n = 20;
     while n > 4{
         n -= 1;
