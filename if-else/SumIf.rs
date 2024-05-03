@@ -1,8 +1,5 @@
 fn main(){
-    println!("____________________\n
-    
-             Hello!\n
-    __________________________\n");
+    println!("Hello!");
     println!(" X: {}", SumIf(4))
     
 }
