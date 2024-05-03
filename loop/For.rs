@@ -1,8 +1,8 @@
 fn main(){
-    ForFunc();
+    for_func();
 }
 
-fn ForFunc(){
+fn for_func(){
     let a = vec![4];
     for i in &a{
         println!("Compiled {i}");
