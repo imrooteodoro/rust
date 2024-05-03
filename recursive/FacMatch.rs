@@ -1,15 +1,15 @@
 fn main(){
-    println!("{}", facMatch(5));
+    println!("{}", fac_match(5));
 }
 
-fn facMatch(n:i32) -> i32{
+fn fac_match(n:i32) -> i32{
     if n < 0{
         return 1;
     }
     else{
         match n{
             0|1=> 1,
-            _=>return n* facMatch(n-1),
+            _=>return n* fac_match(n-1),
         }
     } 
 }
